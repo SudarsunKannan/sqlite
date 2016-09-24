@@ -399,7 +399,7 @@ configure:12456: $? = 0
 configure:12456: result: yes
 configure:12456: checking for fullfsync
 configure:12456: gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/cc92Nx26.o: In function `main':
+/tmp/ccfCAMdU.o: In function `main':
 /users/sudarsun/copy/temp/sqlite/conftest.c:59: undefined reference to `fullfsync'
 collect2: error: ld returned 1 exit status
 configure:12456: $? = 1
@@ -792,7 +792,7 @@ configure:12677: checking for readline/readline.h
 configure:12677: result: no
 configure:12827: checking for library containing pthread_create
 configure:12858: gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/ccVn4o5n.o: In function `main':
+/tmp/ccGJ38eb.o: In function `main':
 /users/sudarsun/copy/temp/sqlite/conftest.c:40: undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
 configure:12858: $? = 1
@@ -849,7 +849,7 @@ configure:12914: $? = 0
 configure:12931: result: none required
 configure:12954: checking for library containing dlopen
 configure:12985: gcc -o conftest -g -O2   conftest.c -lpthread  >&5
-/tmp/ccH5J0qs.o: In function `main':
+/tmp/ccsNG6Ig.o: In function `main':
 /users/sudarsun/copy/temp/sqlite/conftest.c:40: undefined reference to `dlopen'
 collect2: error: ld returned 1 exit status
 configure:12985: $? = 1
